@@ -1,32 +1,38 @@
-// // activity 1 for variables slide
-let name = 'Margaret';
-let age = 23;
-let faveColour = 'Royal Blue';
+// // // activity 1 for variables slide
+// let name = 'Margaret';
+// let age = 23;
+// let faveColour = 'Royal Blue';
 
-console.log(`Hello my name is ${name}. I am ${age} years old. My Favourite colour is ${faveColour}.`);
+// console.log(`Hello my name is ${name}. I am ${age} years old. My Favourite colour is ${faveColour}.`);
 
-// stretch
-age = 44;
-name = 'Julianna';
-faveColour = 'Purple';
+// // stretch
+// age = 44;
+// name = 'Julianna';
+// faveColour = 'Purple';
 
-console.log(`Hello my name is ${name}. I am ${age} years old. My Favourite colour is ${faveColour}.`);
+// console.log(`Hello my name is ${name}. I am ${age} years old. My Favourite colour is ${faveColour}.`);
 
-// // activity 2
-let breakfast = 'French Toast';
-let lunch = 'Tuna Melt';
-let dinner = 'Pasta Bake';
+// // // activity 2
+// let breakfast = 'French Toast';
+// let lunch = 'Tuna Melt';
+// let dinner = 'Pasta Bake';
 
-console.log(`Today I will have ${breakfast} for breakfast, ${lunch} for lunch and ${dinner} for dinner.`);
+// console.log(`Today I will have ${breakfast} for breakfast, ${lunch} for lunch and ${dinner} for dinner.`);
 
-// Stretch
-breakfast = 'cereal';
-lunch = 'BLT sandwich';
-dinner = 'Lobster Linguini';
+// // Stretch
+// breakfast = 'cereal';
+// lunch = 'BLT sandwich';
+// dinner = 'Lobster Linguini';
 
-console.log(`Tomorrow I will have ${breakfast} for breakfast, a ${lunch} for lunch and ${dinner} for dinner.`);
+// console.log(`Tomorrow I will have ${breakfast} for breakfast, a ${lunch} for lunch and ${dinner} for dinner.`);
 
 // activity 3
+const today = new Date();
+const birthday = new Date(2000, 0, 30);
+let timeElapsed = today - birthday;
+let days = timeElapsed / (1000 * 60 * 60 * 24);
+
+console.log(Math.floor(days));
 
 // let date_1 = new Date('08/07/2023');
 // let date_2 = new Date();
@@ -40,16 +46,16 @@ console.log(`Tomorrow I will have ${breakfast} for breakfast, a ${lunch} for lun
 // console.log(days(date_1, date_2) +" days from when I was born to today");
 
 // activity 4
-let varName1 = "x";
-let varName2 = "o"
-console.log("     |     |     ");
-console.log(` ${varName1}   |  ${varName2}  |     `);
-console.log("     |     |     ");
-console.log("-----------------");
-console.log("     |     |     ");
-console.log(` ${varName1}   |  ${varName1}  |     `);
-console.log("     |     |     ");
-console.log("-----------------");
-console.log("     |     |     ");
-console.log(` ${varName2}   |     |     `);
-console.log("     |     |     ");
+// let varName1 = "x";
+// let varName2 = "o"
+// console.log("     |     |     ");
+// console.log(` ${varName1}   |  ${varName2}  |     `);
+// console.log("     |     |     ");
+// console.log("-----------------");
+// console.log("     |     |     ");
+// console.log(` ${varName1}   |  ${varName1}  |     `);
+// console.log("     |     |     ");
+// console.log("-----------------");
+// console.log("     |     |     ");
+// console.log(` ${varName2}   |     |     `);
+// console.log("     |     |     ");
