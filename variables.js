@@ -47,7 +47,7 @@ console.log(Math.floor(days));
 
 // activity 4
 // let varName1 = "x";
-// let varName2 = "o"
+// let varName2 = "o";
 // console.log("     |     |     ");
 // console.log(` ${varName1}   |  ${varName2}  |     `);
 // console.log("     |     |     ");
